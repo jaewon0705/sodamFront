@@ -58,7 +58,7 @@ nav #sideSearch {float:left; position:relative;}
 /* nav 2Depth */
 .lnb_sub {position:absolute; margin-top:40px; display:none; z-index:1000; }
 .lnb_sub.on {display:block;}
-.lnb_sub > .inner_lnbsub {width:1260px; height:auto; overflow:hidden; background-color:#fff; box-sizing: border-box; border:1px solid #000;}
+.lnb_sub > .inner_lnbsub {width:600px; height:auto; overflow:hidden; background-color:#fff; box-sizing: border-box; border:1px solid #000;}
 
 .inner_lnbsub > div {float:left; width:180px; height:280px; box-sizing: border-box; font:bold 12px arial;}
 

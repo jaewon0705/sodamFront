@@ -59,7 +59,6 @@
         <ul id="gnb">
           <li><a href="#" title="로그인" class="login_popup">로그인</a></li>
           <li><a href="./signup.html" title="회원가입">회원가입</a></li>
-          <li><a href="#" title="배송지역 검색">배송지역 검색</a></li>
         </ul>
         <h1>
           <a href="./index.html">
@@ -102,10 +101,12 @@
               <li><a href="#">MD의 큐레이션</a></li>
             </ul>
           </li>
-          <li><a href="newproduct.html" title="신상품">신상품</a></li>
-          <li><a href="popular_product.html" title="인기상품">인기상품</a></li>
-          <li><a href="sale_product.html" title="알뜰쇼핑">알뜰쇼핑</a></li>
-          <li><a href="#" title="이벤트">이벤트</a></li>
+          <li>
+            <a href="newproduct.html" title="전체상품보기">전체상품보기</a>
+          </li>
+          <!-- <li><a href="popular_product.html" title="인기상품">인기상품</a></li> -->
+          <li><a href="./enroll.html" title="이벤트">매물 등록</a></li>
+          <li><a href="mypage.html" title="마이페이지">마이페이지</a></li>
         </ul>
         <!-- sub menu -->
         <div class="lnb_sub">
@@ -384,10 +385,23 @@
                   <td>
                     <input
                       type="text"
-                      id="userID"
+                      id="emailAddr"
                       class="textBox"
-                      name="userID"
+                      maxlength="60"
+                      size="20"
+                      title="이메일 아이디"
                     />
+                    &#64; <input type="text" class="textBox" name="emailAddr" />
+                    <select>
+                      <option>직접입력</option>
+                      <option>hanmail.net</option>
+                      <option>gmail.com</option>
+                      <option>daum.net</option>
+                      <option>hotmail.com</option>
+                      <option>nate.com</option>
+                      <option>yahoo.co.kr</option>
+                    </select>
+                    <button class="CheckBox">중복확인</button>
                   </td>
                 </tr>
                 <!-- no.3 -->
@@ -415,7 +429,7 @@
                   </td>
                 </tr>
                 <!-- no.5 -->
-                <tr>
+                <!-- <tr>
                   <th><label for="emailAddr">이메일 </label></th>
                   <td>
                     <input
@@ -437,7 +451,7 @@
                       <option>yahoo.co.kr</option>
                     </select>
                   </td>
-                </tr>
+                </tr> -->
                 <!-- no.6 -->
                 <tr>
                   <th><label for="userName">이름</label></th>
